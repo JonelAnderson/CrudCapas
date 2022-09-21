@@ -47,29 +47,32 @@
                 <h5 class="modal-title">Detalle User</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <input type="hidden" id="txtId" value="0" />
-                <div class="mb-2">
-                    <label>Name</label>
-                    <input type="text" class="form-control" id="txtName" required />
+            <form>
+                <div class="modal-body">
+                
+                    <input type="hidden" id="txtId" value="0" />
+                    <div class="mb-2">
+                        <label>Name</label>
+                        <input type="text" class="form-control" id="txtName" required />
+                    </div>
+                    <div class="mb-2">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" id="txtlastName" required />
+                    </div>
+                    <div class="mb-2">
+                        <label>Email</label>
+                        <input type="text" class="form-control" id="txtEmail" required />
+                    </div>
+                    <div class="mb-2">
+                        <label>Phone</label>
+                        <input type="text" class="form-control" id="txtPhone" required />
+                    </div>
                 </div>
-                <div class="mb-2">
-                    <label>Last Name</label>
-                    <input type="text" class="form-control" id="txtlastName" required />
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" id="btnGuardar">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
-                <div class="mb-2">
-                    <label>Email</label>
-                    <input type="text" class="form-control" id="txtEmail" required />
-                </div>
-                <div class="mb-2">
-                    <label>Phone</label>
-                    <input type="text" class="form-control" id="txtPhone" required />
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="btnGuardar">Guardar</button>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            </div>
+            </form>
         </div>
     </div>
 </div>
@@ -109,12 +112,12 @@
 
         $("#btnGuardar").click(() => {
             let NuevoModelo = Modelo_base;
-
-            NuevoModelo["id"] = $("#txtId").val();
-            NuevoModelo["name"] = $("#txtName").val();
-            NuevoModelo["lastName"] = $("#txtlastName").val();
-            NuevoModelo["email"] = $("#txtEmail").val();
-            NuevoModelo["phone"] = $("#txtPhone").val();
+                NuevoModelo["id"] = $("#txtId").val();
+                NuevoModelo["name"] = $("#txtName").val();
+                NuevoModelo["lastName"] = $("#txtlastName").val();
+                NuevoModelo["email"] = $("#txtEmail").val();
+                NuevoModelo["phone"] = $("#txtPhone").val();
+            
 
             if ($("#txtId").val() == "0") {
                 fetch("User/Insert", {
@@ -132,7 +135,14 @@
                         if (dataJson.valor) {
                             alert("registrado");
                             $('.modal').modal('hide');
-                            listUsers();
+                             listUsers();
+
+                            //$("#txtId").val()='';
+                            //$("#txtName").val()='';
+                            //$("#txtlastName").val()='';
+                            //$("#txtEmail").val()='';
+                            //$("#txtPhone").val()='';
+                           
                         }
                     })
             } else {
@@ -161,12 +171,13 @@
 
         function listUsers() {
 
-            fetch("User/Lista")
+            fetch("User/Listar")
                 .then((response) => {
                     return response.ok ? response.json() : Promise.reject(response)
                 })
                 .then((dataJson) => {
                     $("#tbUser tbody").html("");
+
                     let valores = isObjEmpty(dataJson);
 
                     if (valores == true) {
@@ -244,9 +255,6 @@
         function isObjEmpty(obj) {
             return Object.keys(obj).length === 0;
         }
-
-
-
 
 
 

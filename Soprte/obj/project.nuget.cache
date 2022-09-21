@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dz8kNUw+6BVgqfjXmiqL+Emnf65lH6bJDwiGGKYzIjXtn+E45A9VdMzyuDAcnIdFTHosgs94nODpyWDQa5WGuQ==",
+  "dgSpecHash": "M5QJVc/yWed5p2Co9TKOZjKsSp3uG2JOE7qU6L/t1WeHCd0ejVlAyL912ChzDQCnTKOdpTszk7G9UA9VC6R7+w==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Soprte\\Soprte.csproj",
+  "projectFilePath": "D:\\Proyecto Csharp\\CrudCapas\\Soprte\\Soprte.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ozq2WGkyRJAy5VgtgdeutFKYfa3MWYaEOGMoyDv9u9DU2PvWR8dRShHRJDxBU28zyNA+ygfsh1YFKDFRd0+szg==",
+  "dgSpecHash": "RqvJqIbW5mdZdXHbzhs6IMPSk6dgaW20/ayCjV0B+ee3bLythLQSYpLTugSdEeVEKKn+WAZVj1efwkDIoZ5TtA==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jonel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

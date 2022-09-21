@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\Presentacion\\Presentacion.csproj": {}
+    "D:\\Proyecto Csharp\\CrudCapas\\Presentacion\\Presentacion.csproj": {}
   },
   "projects": {
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj": {
+    "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\obj\\",
+        "outputPath": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj"
+              "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj": {
+    "D:\\Proyecto Csharp\\CrudCapas\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Proyecto Csharp\\CrudCapas\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\obj\\",
+        "outputPath": "D:\\Proyecto Csharp\\CrudCapas\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,11 +98,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj"
+              "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj"
+              "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj"
               }
             }
           }
@@ -135,14 +135,14 @@
         }
       }
     },
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
+    "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\obj\\",
+        "outputPath": "D:\\Proyecto Csharp\\CrudCapas\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -189,14 +189,14 @@
         }
       }
     },
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\Presentacion\\Presentacion.csproj": {
+    "D:\\Proyecto Csharp\\CrudCapas\\Presentacion\\Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Presentacion\\Presentacion.csproj",
+        "projectUniqueName": "D:\\Proyecto Csharp\\CrudCapas\\Presentacion\\Presentacion.csproj",
         "projectName": "Presentacion",
-        "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Presentacion\\Presentacion.csproj",
+        "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Presentacion\\Presentacion.csproj",
         "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Presentacion\\obj\\",
+        "outputPath": "D:\\Proyecto Csharp\\CrudCapas\\Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,11 +213,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj"
+              "D:\\Proyecto Csharp\\CrudCapas\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Domain\\Domain.csproj"
               },
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj"
+              "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj"
               }
             }
           }

@@ -24,7 +24,7 @@ namespace Presentacion.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Lista()
+        public async Task<IActionResult> Listar()
         {
 
             IQueryable<User> users = await _userService.GetAll();
@@ -60,6 +60,36 @@ namespace Presentacion.Controllers
             return StatusCode(StatusCodes.Status200OK, new { valor = respuesta });
 
         }
+        //public ActionResult Insert()
+        //{
+        //    return View();
+        //}
+
+        //[HttpPost]
+        //public IActionResult Insert(UserVM request)
+        //{
+
+        //    try
+        //    {
+        //        if (ModelState.IsValid)
+        //        {
+        //            using (User db = new User())
+        //            {
+        //                db.Id = request.Id;
+        //                db.Name = request.Name;
+        //                db.LastName=request.LastName;
+        //                db.Email = request.Email;
+        //                db.Phone = request.Phone;
+        //            }
+
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception(ex.Message);
+        //    }
+
+        //}
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UserVM request)
         {

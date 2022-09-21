@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/GB+mnjClY2i10PEyzDMu102Rj7Iv7QSl2U05pTT0hX7H6OqBVE2eU670PxS26p3Wqzdt0eK+gP81qZPCFnkBQ==",
+  "dgSpecHash": "KYzMNbljIsh4fvLdtDEcuLIf+KpjWOokmOoo7OtZK8l/ijoIAUet8kysRY+30VzcMIOBcrv+4eQIvbbahw9r4A==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Proyecto Csharp\\CrudCapas\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\jonel\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

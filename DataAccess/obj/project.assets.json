@@ -1885,11 +1885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\obj\\",
+      "outputPath": "D:\\Proyecto Csharp\\CrudCapas\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1906,8 +1906,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj"
+            "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\Proyecto Csharp\\CrudCapas\\Entities\\Entities.csproj"
             }
           }
         }

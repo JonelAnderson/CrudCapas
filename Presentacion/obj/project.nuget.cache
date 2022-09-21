@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dSfwiuP4gADaYnMdhomvN0MMZqw2qBQpBlmZZb0zlmMYheA7HgNkmNM7AxcyIVMM72qzf8QZ6vkKNd+y/6x+rg==",
+  "dgSpecHash": "3frhQw46G6EyI7kNN+29LtbEscCsu56AUGSi9/1JZ8ZKLcIDsCuLAdJ7oLprPcR2KlZC2pgMbKV9Wo79+yVeFg==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Presentacion\\Presentacion.csproj",
+  "projectFilePath": "D:\\Proyecto Csharp\\CrudCapas\\Presentacion\\Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jonel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

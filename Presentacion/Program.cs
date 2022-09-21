@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(opciones => {
 });
 
 
-builder.Services.AddScoped<IGenericRepository<User>, UserRepository>();
+builder.Services.AddScoped<IGenericRepository<User>, GenericRepository<User>>();
 builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
