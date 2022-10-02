@@ -1,20 +1,12 @@
-using DataAccess.DBContetx;
-using DataAccess.Repositories;
-using Domain.Services;
-using Entities.Entities;
-using Microsoft.EntityFrameworkCore;
+
+using Domain.Depency;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ApplicationDbContext>(opciones => {
-    opciones.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionBD"));
-});
 
-
-builder.Services.AddScoped<IGenericRepository<User>, GenericRepository<User>>();
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.DependencyInjector(builder.Configuration);
 
 var app = builder.Build();
 

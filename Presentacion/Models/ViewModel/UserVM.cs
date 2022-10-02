@@ -5,7 +5,7 @@ namespace Presentacion.Models.ViewModel
     public class UserVM
     {
         [Key]
-        public int Id { get; set; }
+        public int IdUser { get; set; }
 
         [Required(ErrorMessage = "El Nombre es obligatorio")]
         [StringLength(50, ErrorMessage = "El {0} debe tener al menos {2} y maximo {1} caracteres", MinimumLength = 4)]
@@ -26,5 +26,10 @@ namespace Presentacion.Models.ViewModel
         [StringLength(11, ErrorMessage = "El {0} debe ser al menos {2} y maximo {1} caracteres", MinimumLength = 9)]
         [Display(Name = "Teléfono")]
         public string? Phone { get; set; }
+
+       
+
+
+        public virtual ICollection<TratamientoVM>? Tratamientos { get; set; }
     }
 }

@@ -1,17 +1,20 @@
-﻿@{
+﻿@model List<Entities.Entities.ParameterSystem>
+@using Presentacion.Models.Language
+@{
+    LanguageModelButtons LanguageButtons = new LanguageModelButtons().GetLanguageForView();
     ViewData["Title"] = "Usuario";
-    ViewData["Titulo"] = "Lista Usuario";
+    ViewData["Titulo"] = "USER";
 }
 <div class="border-decoration ">
     <div class="row">
         <div class="col-sm-12 col-md-12 header-card-title">
             <div class="table-title">
                 <div class="float-start">
-                    <h3><strong>Usuarios</strong></h3>
+                    <h3><strong>@LanguageButtons.List_user</strong></h3>
 
                 </div>
                 <div class="float-end">
-                    <button class="btn btn-primary button-title" id="btnNuevo"><em class='bx bx-plus-medical'></em> NUEVO USUARIO</button>
+                    <button class="btn btn-primary button-title" id="btnNuevo"><em class='fa fa-plus'></em> @LanguageButtons.New_user</button>
                 </div>
             </div>
         </div>
@@ -23,11 +26,11 @@
                     <thead>
                         <tr class="text-center">
                             <th>ID</th>
-                            <th>Name</th>
-                            <th>Last Name</th>
-                            <th>Email</th>
-                            <th>Phone</th>
-                            <th>Actions</th>
+                            <th>@LanguageButtons.Names</th>
+                            <th>@LanguageButtons.LastName</th>
+                            <th>@LanguageButtons.Email</th>
+                            <th>@LanguageButtons.Phone</th>
+                            <th>@LanguageButtons.Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -44,7 +47,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Detalle User</h5>
+                <h5 class="modal-title">@LanguageButtons.User_detail</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form>
@@ -52,25 +55,25 @@
                 
                     <input type="hidden" id="txtId" value="0" />
                     <div class="mb-2">
-                        <label>Name</label>
+                        <label>@LanguageButtons.Names</label>
                         <input type="text" class="form-control" id="txtName" required />
                     </div>
                     <div class="mb-2">
-                        <label>Last Name</label>
+                        <label>@LanguageButtons.LastName</label>
                         <input type="text" class="form-control" id="txtlastName" required />
                     </div>
                     <div class="mb-2">
-                        <label>Email</label>
+                        <label>@LanguageButtons.Email</label>
                         <input type="text" class="form-control" id="txtEmail" required />
                     </div>
                     <div class="mb-2">
-                        <label>Phone</label>
+                        <label>@LanguageButtons.Phone</label>
                         <input type="text" class="form-control" id="txtPhone" required />
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary" id="btnGuardar">Guardar</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><em class='bx bx-x'></em>&nbsp @LanguageButtons.Close</button>
+                    <button type="submit" class="btn btn-primary" id="btnGuardar"><em class='bx bx-save'></em>&nbsp @LanguageButtons.Save</button>
                 </div>
             </form>
         </div>
@@ -82,7 +85,7 @@
     <script>
 
         const Modelo_base = {
-            id: 0,
+            idUser: 0,
             name: "",
             lastName: "",
             email: "",
@@ -96,7 +99,7 @@
 
         function mostrarModal(request) {
 
-            $("#txtId").val(request.id);
+            $("#txtId").val(request.idUser);
             $("#txtName").val(request.name)
             $("#txtlastName").val(request.lastName)
             $("#txtEmail").val(request.email)
@@ -112,7 +115,7 @@
 
         $("#btnGuardar").click(() => {
             let NuevoModelo = Modelo_base;
-                NuevoModelo["id"] = $("#txtId").val();
+                NuevoModelo["idUser"] = $("#txtId").val();
                 NuevoModelo["name"] = $("#txtName").val();
                 NuevoModelo["lastName"] = $("#txtlastName").val();
                 NuevoModelo["email"] = $("#txtEmail").val();
@@ -136,12 +139,6 @@
                             alert("registrado");
                             $('.modal').modal('hide');
                              listUsers();
-
-                            //$("#txtId").val()='';
-                            //$("#txtName").val()='';
-                            //$("#txtlastName").val()='';
-                            //$("#txtEmail").val()='';
-                            //$("#txtPhone").val()='';
                            
                         }
                     })
@@ -198,14 +195,16 @@
                             $("#tbUser tbody").addClass("text-center").append(
 
                                 $("<tr>").append(
-                                    $("<td>").text(item.id),
+                                    $("<td>").text(item.idUser),
                                     $("<td>").text(item.name),
                                     $("<td>").text(item.lastName),
                                     $("<td>").text(item.email),
                                     $("<td>").text(item.phone),
                                     $("<td>").append(
-                                        $("<button>").addClass("btn btn-primary btn-sm me-2 btn-editar").data("request", item).attr("title", "Edit").append("<em>").addClass("bx bxs-edit"),
-                                        $("<button>").addClass("btn btn-danger btn-sm btn-eliminar").data("id", item.id).attr("title", "Delete").append("<em>").addClass("bx bxs-trash")
+                                        $("<button>").addClass("btn btn-primary btn-sm me-2 btn-editar fa fa-pencil-square-o").data("request", item).attr("title", "Edit"),
+                                        $("<button>").addClass("btn btn-danger btn-sm me-2 btn-eliminar fa fa-trash-o").data("idUser", item.idUser).attr("title", "Delete"),
+                                        $("<button>").addClass("btn btn-primary btn-sm fa fa-eye").attr("title", "Show").attr("disabled", false)
+                                            
                                     )
                                 )
 
@@ -224,9 +223,15 @@
             mostrarModal(user)
         })
 
+        $("#tbUser tbody").on("click", ".btn-show", function() {
+            let user = $(this).data("request")
+
+            mostrarModal(user)
+        })
+
 
         $("#tbUser tbody").on("click", ".btn-eliminar", function() {
-            let id = $(this).data("id")
+            let idUser = $(this).data("idUser")
 
             let resultado = window.confirm("¿Desea eliminar el usuario?");
 
@@ -234,7 +239,7 @@
             if (resultado) {
 
 
-                fetch("User/Delete?id=" + id, {
+                fetch("User/Delete?id=" + idUser, {
                     method: "DELETE"
                 })
                     .then((response) => {

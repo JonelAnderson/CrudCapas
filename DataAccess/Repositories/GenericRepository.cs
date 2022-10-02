@@ -17,13 +17,13 @@ namespace DataAccess.Repositories
         {
             _dbcontext = context;
         }
-        public async Task<IQueryable<TItem>> GetAll()
+        public Task<IQueryable<TItem>> GetAll()
         {
             try
             {
                 IQueryable<TItem> entity = _dbcontext.Set<TItem>();
 
-                return entity;
+                return Task.FromResult(entity);
             }
             catch (Exception ex)
             {
@@ -71,8 +71,8 @@ namespace DataAccess.Repositories
 
             try
             {
-                TItem request = await _dbcontext.Set<TItem>().FindAsync(id);
-                _dbcontext.Remove(request);
+                TItem? request = await _dbcontext.Set<TItem>().FindAsync(id);
+                 _ = _dbcontext.Remove(request);
                 await _dbcontext.SaveChangesAsync();
                 return true;
 
@@ -86,7 +86,7 @@ namespace DataAccess.Repositories
         }
 
 
-        public async Task<TItem> GetById(Object id)
+        public async Task<TItem> GetById(object id)
         {
             try
             {

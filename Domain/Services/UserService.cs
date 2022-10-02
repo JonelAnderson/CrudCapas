@@ -16,38 +16,36 @@ namespace Domain.Services
         {
             _userRepository = userRepository;
         }
+
         public async Task<IQueryable<User>> GetAll()
         {
             return await _userRepository.GetAll();
         }
-        public async Task<User> GetById(int id)
+        public async Task<User> GetById(object id)
         {
             return await _userRepository.GetById(id);
         }
-        public async Task<bool> Update(User request)
+        public async Task<bool> Update(User user)
         {
-            return await _userRepository.Update(request);
+            return await _userRepository.Update(user);
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<bool> Delete(object id)
         {
             return await _userRepository.Delete(id);
         }
 
-        public async Task<bool> Insert(User request)
+        public async Task<bool> Insert(User user)
         {
-            return await _userRepository.Insert(request);
+            return await _userRepository.Insert(user);
         }
 
         public async Task<User> GetByName(string nameUser)
         {
             IQueryable<User> queryUserSQL = await _userRepository.GetAll();
-            User user = queryUserSQL.Where(c => c.Name == nameUser).FirstOrDefault();
+            User? user = queryUserSQL.Where(c => c.Name == nameUser).FirstOrDefault();
             return user;
         }
-
-        
-
        
     }
 }

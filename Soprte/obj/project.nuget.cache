@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "M5QJVc/yWed5p2Co9TKOZjKsSp3uG2JOE7qU6L/t1WeHCd0ejVlAyL912ChzDQCnTKOdpTszk7G9UA9VC6R7+w==",
+  "dgSpecHash": "6IQ7qcQfqtco9IqMjSjnyOk8NySHSzLplYRkuSorX3Y89xRTyIvNPXP0UdmfCzuogpdxt6eE2S2MKV0caEVX9Q==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Csharp\\CrudCapas\\Soprte\\Soprte.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Soprte\\Soprte.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jonel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jonel\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\jonel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

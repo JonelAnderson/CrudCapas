@@ -32,7 +32,7 @@ namespace Presentacion.Controllers
             List<UserVM> lista = users
                         .Select(c => new UserVM()
                         {
-                            Id = c.Id,
+                            IdUser = c.IdUser,
                             Name = c.Name,
                             LastName = c.LastName,
                             Email = c.Email,
@@ -60,43 +60,14 @@ namespace Presentacion.Controllers
             return StatusCode(StatusCodes.Status200OK, new { valor = respuesta });
 
         }
-        //public ActionResult Insert()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public IActionResult Insert(UserVM request)
-        //{
-
-        //    try
-        //    {
-        //        if (ModelState.IsValid)
-        //        {
-        //            using (User db = new User())
-        //            {
-        //                db.Id = request.Id;
-        //                db.Name = request.Name;
-        //                db.LastName=request.LastName;
-        //                db.Email = request.Email;
-        //                db.Phone = request.Phone;
-        //            }
-
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception(ex.Message);
-        //    }
-
-        //}
+       
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UserVM request)
         {
 
             User NewUser = new User()
             {
-                Id = request.Id,
+                IdUser = request.IdUser,
                 Name = request.Name,
                 LastName = request.LastName,
                 Email = request.Email,

@@ -1,0 +1,145 @@
+﻿@model List<Entities.Entities.ParameterSystem>
+@using Presentacion.Models.Language
+
+@{
+    ViewData["Title"] = "Parámetros del Sistema";
+    ViewData["Titulo"] = "IDIOMA";
+    LanguageModelButtons LanguageButtons = new LanguageModelButtons().GetLanguageForView();
+}
+<div class="border-decoration ">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 header-card-title">
+            <div class="table-title">
+                <div class="float-start">
+                    <h3><strong>@LanguageButtons.ConfigSystem</strong></h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="text-center">
+                            <th>ID</th>
+                            <th>@LanguageButtons.Type</th>
+                            <th>@LanguageButtons.Value</th>
+                            <th>@LanguageButtons.State</th>
+                            <th>@LanguageButtons.Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                         @foreach (var @parameter in @Model)
+                            {
+                                <tr>
+                                    <th>@parameter.Id</th>
+                                    <th>@parameter.Type</th>
+                                    <td>
+                                        @{
+                                            switch (parameter.Value)
+                                            {
+                                                case "English":
+                                                    <span>@LanguageButtons.English</span>
+                                                    break;
+                                                case "Spanish":
+                                                    <span>@LanguageButtons.Spanish</span>
+                                                    break;
+                                            }
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (parameter.State)
+                                        {
+                                            <span>@LanguageButtons.Activated</span>
+                                        }
+                                        else
+                                        {
+                                            <span>@LanguageButtons.Disabled</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_@parameter.Id">@LanguageButtons.ChangeLanguage</button>
+                                        <!-- Modal Value -->
+                                        <div class="modal fade" id="modal_@parameter.Id" tabindex="-1" role="dialog" aria-labelledby="@parameter.Id" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <form asp-action="Update">
+                                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                        <input type="hidden" name="id" value="@parameter.Id" />
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="@parameter.Id">@LanguageButtons.Edit @parameter.Type</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="form-row">
+                                                                <div class="form-group col">
+                                                                    @if (parameter.Id == 1)
+                                                                    {
+                                                                        <select class="form-control custom-select" name="value">
+                                                                            <option disabled>------@LanguageButtons.Select------</option>
+                                                                            @{
+                                                                                switch (parameter.Value)
+                                                                                {
+                                                                                    case "English":
+                                                                                        <option value="English" selected>@LanguageButtons.English</option>
+                                                                                        <option value="Spanish">@LanguageButtons.Spanish</option>
+                                                                                        
+                                                                                        break;
+                                                                                    case "Spanish":
+                                                                                        <option value="English">@LanguageButtons.English</option>
+                                                                                        <option value="Spanish" selected>@LanguageButtons.Spanish</option>
+                                                                                        
+                                                                                        break;
+                                                                                    default:
+                                                                                        <option value="English" selected>@LanguageButtons.English</option>
+                                                                                        <option value="Spanish">@LanguageButtons.Spanish</option>
+                                                                                        break;
+                                                                                }
+                                                                            }
+                                                                        </select>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <input class="form-control" name="value" type="text" value="@parameter.Value" />
+                                                                    }
+                                                                </div>
+                                                                <div class="form-group col">
+                                                                    <select class="form-control custom-select" name="state">
+                                                                        <option disabled>------@LanguageButtons.Select------</option>
+                                                                        @if (parameter.State)
+                                                                        {
+                                                                            <option value="1" selected>@LanguageButtons.Activated</option>
+                                                                            <option value="0">@LanguageButtons.Disabled</option>
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            <option value="1">@LanguageButtons.Activated</option>
+                                                                            <option value="0" selected>@LanguageButtons.Disabled</option>
+                                                                        }
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">@LanguageButtons.Close</button>
+                                                           
+                                                            <button type="submit" class="btn btn-primary">@LanguageButtons.Save</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

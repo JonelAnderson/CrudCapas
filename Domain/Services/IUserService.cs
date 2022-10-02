@@ -10,11 +10,11 @@ namespace Domain.Services
     public interface IUserService
     {
         Task<IQueryable<User>> GetAll();
-        Task<User> GetById(int id);
-        Task<bool> Insert(User request);
-        Task<bool> Update(User request);
-        Task<bool> Delete(int id);
+        Task<User> GetById(object id);
+        Task<bool> Insert(User user);
+        Task<bool> Update(User user);
+        Task<bool> Delete(object id);
 
-        Task<User> GetByName(string nameUser);
+        Task<User> GetByName(string request);
     }
 }

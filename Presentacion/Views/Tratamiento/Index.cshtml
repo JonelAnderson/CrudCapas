@@ -1,0 +1,267 @@
+﻿@model List<Entities.Entities.ParameterSystem>
+@using Presentacion.Models.Language
+@{
+    LanguageModelButtons LanguageButtons = new LanguageModelButtons().GetLanguageForView();
+    ViewData["Title"] = "Tratamiento";
+    ViewData["Titulo"] = "Tratamiento";
+}
+<div class="border-decoration ">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 header-card-title">
+            <div class="table-title">
+                <div class="float-start">
+                    <h3><strong>@LanguageButtons.Treatment</strong></h3>
+
+                </div>
+                <div class="float-end">
+                    <button class="btn btn-primary button-title" id="btnNuevo"><em class='fa fa-plus'></em> @LanguageButtons.New_register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="tbUser">
+                    <thead>
+                        <tr class="text-center">
+                            <th>ID</th>
+                            <th>@LanguageButtons.Type</th>
+                            <th>@LanguageButtons.Medicament</th>
+                            <th>@LanguageButtons.Description</th>
+                            <th>@LanguageButtons.Responsable</th>
+                            <th>@LanguageButtons.Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Inicio Modal-->
+<div class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" id="MiModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">@LanguageButtons.Detail_tratamiento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form>
+                <div class="modal-body">
+                
+                    <input type="hidden" id="txtId" value="0" />
+                    <div class="mb-2">
+                        <label>Name</label>
+                        <input type="text" class="form-control" id="txtName" required />
+                    </div>
+                    <div class="mb-2">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" id="txtlastName" required />
+                    </div>
+                    <div class="mb-2">
+                        <label>Email</label>
+                        <input type="text" class="form-control" id="txtEmail" required />
+                    </div>
+                    <div class="mb-2">
+                        <label>Phone</label>
+                        <input type="text" class="form-control" id="txtPhone" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary" id="btnGuardar">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--Fin Modal-->
+@section Scripts{
+
+    <script>
+
+        const Modelo_base = {
+            idTratamiento: 0,
+            tipo: "",
+            medicamento: "",
+            descripcion: "",
+            idUser: 0
+        }
+
+        $(document).ready(() => {
+
+            listTratamientos();
+        })
+
+        function mostrarModal(request) {
+
+            $("#txtId").val(request.id);
+            $("#txtName").val(request.tipo)
+            $("#txtlastName").val(request.medicamento)
+            $("#txtEmail").val(request.descripcion)
+            $("#txtPhone").val(request.iduser)
+
+            $('.modal').modal('show');
+        }
+
+        $("#btnNuevo").click(() => {
+
+            mostrarModal(Modelo_base);
+        })
+
+        $("#btnGuardar").click(() => {
+            let NuevoModelo = Modelo_base;
+                NuevoModelo["id"] = $("#txtId").val();
+                NuevoModelo["name"] = $("#txtName").val();
+                NuevoModelo["lastName"] = $("#txtlastName").val();
+                NuevoModelo["email"] = $("#txtEmail").val();
+                NuevoModelo["phone"] = $("#txtPhone").val();
+            
+
+            if ($("#txtId").val() == "0") {
+                fetch("User/Insert", {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json;charset=utf-8'
+                    },
+                    body: JSON.stringify(NuevoModelo)
+                })
+                    .then((response) => {
+                        return response.ok ? response.json() : Promise.reject(response)
+                    })
+                    .then((dataJson) => {
+
+                        if (dataJson.valor) {
+                            alert("registrado");
+                            $('.modal').modal('hide');
+                             listUsers();
+                           
+                        }
+                    })
+            } else {
+                fetch("User/Update", {
+                    method: "PUT",
+                    headers: {
+                        'Content-Type': 'application/json;charset=utf-8'
+                    },
+                    body: JSON.stringify(NuevoModelo)
+                })
+                    .then((response) => {
+                        return response.ok ? response.json() : Promise.reject(response)
+                    })
+                    .then((dataJson) => {
+
+                        if (dataJson.valor) {
+                            alert("editado");
+                            $('.modal').modal('hide');
+                            listUsers();
+                        }
+                    })
+
+            }
+
+        })
+
+        function listTratamientos() {
+
+            fetch("Tratamiento/Listar")
+                .then((response) => {
+                    return response.ok ? response.json() : Promise.reject(response)
+                })
+                .then((dataJson) => {
+                    $("#tbUser tbody").html("");
+
+                    let valores = isObjEmpty(dataJson);
+
+                    if (valores == true) {
+                        //console.log("no existe datos");
+                        $("#tbUser tbody").addClass("text-center").append(
+                            $("<tr>").append(
+                                $("<td>").attr("colspan", "6").append(
+                                    $("<h4>").text("no existe datos en tabla")
+                                )
+                            )
+                        )
+
+                    } else {
+                        //console.log("multiples datos");
+                        dataJson.forEach((item) => {
+
+
+                            $("#tbUser tbody").addClass("text-center").append(
+
+                                $("<tr>").append(
+                                    $("<td>").text(item.idTratamiento),
+                                    $("<td>").text(item.tipo),
+                                    $("<td>").text(item.medicamento),
+                                    $("<td>").text(item.descripcion),
+                                    $("<td>").text(item.idUser),
+                                    $("<td>").append(
+                                         $("<button>").addClass("btn btn-primary btn-sm me-2 btn-editar fa fa-pencil-square-o").data("request", item).attr("title", "Edit"),
+                                        $("<button>").addClass("btn btn-danger btn-sm me-2 btn-eliminar fa fa-trash-o").data("id", item.id).attr("title", "Delete"),
+                                        $("<button>").addClass("btn btn-primary btn-sm fa fa-eye").attr("title", "Show").attr("disabled", false)
+                                    )
+                                )
+
+                            )
+
+
+                        })
+                    }
+                })
+
+        }
+
+        $("#tbUser tbody").on("click", ".btn-editar", function() {
+            let user = $(this).data("request")
+
+            mostrarModal(user)
+        })
+
+        $("#tbUser tbody").on("click", ".btn-show", function() {
+            let user = $(this).data("request")
+
+            mostrarModal(user)
+        })
+
+
+        $("#tbUser tbody").on("click", ".btn-eliminar", function() {
+            let id = $(this).data("id")
+
+            let resultado = window.confirm("¿Desea eliminar el usuario?");
+
+
+            if (resultado) {
+
+
+                fetch("User/Delete?id=" + id, {
+                    method: "DELETE"
+                })
+                    .then((response) => {
+                        return response.ok ? response.json() : Promise.reject(response)
+                    })
+                    .then((dataJson) => {
+
+                        if (dataJson.valor) {
+                            listUsers();
+                        }
+                    })
+
+
+            }
+
+        })
+
+        function isObjEmpty(obj) {
+            return Object.keys(obj).length === 0;
+        }
+
+
+
+    </script>
+
+}

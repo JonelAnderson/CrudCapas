@@ -10,8 +10,8 @@ namespace DataAccess.Repositories
     {
         Task<bool> Insert(TItem request);
         Task<bool> Update(TItem request);
-        Task<bool> Delete(Object id);
-        Task<TItem> GetById(Object id);
+        Task<bool> Delete(object id);
+        Task<TItem> GetById(object id);
         Task<IQueryable<TItem>> GetAll();
     }
 }
