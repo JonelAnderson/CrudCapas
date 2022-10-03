@@ -55,9 +55,12 @@ namespace Presentacion.Controllers
                 Phone = request.Phone
             };
 
-            bool respuesta = await _userService.Insert(NewUser);
+            var respuesta = await _userService.Insert(NewUser);
 
-            return StatusCode(StatusCodes.Status200OK, new { valor = respuesta });
+            //var response = await _categoryApplication.RegisterCategory(requestDto);
+            return Ok(respuesta);
+
+            //return StatusCode(StatusCodes.Status200OK, new { valor = respuesta });
 
         }
        

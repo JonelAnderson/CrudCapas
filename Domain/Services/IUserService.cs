@@ -1,4 +1,5 @@
-﻿using Entities.Entities;
+﻿using Domain.Common;
+using Entities.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace Domain.Services
     {
         Task<IQueryable<User>> GetAll();
         Task<User> GetById(object id);
-        Task<bool> Insert(User user);
+        Task<BaseResponse<bool>> Insert(User user);
         Task<bool> Update(User user);
         Task<bool> Delete(object id);
 

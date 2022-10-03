@@ -3,6 +3,7 @@ using DataAccess.Repositories;
 using Domain.Logic;
 using Domain.Services;
 using Entities.Entities;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +17,7 @@ namespace Domain.Depency
 {
     public static class DependencyInject
     {
+        [Obsolete]
         public static void DependencyInjector(this IServiceCollection services, IConfiguration Configuration)
         {
 
@@ -23,7 +25,11 @@ namespace Domain.Depency
             {
                 options.UseSqlServer(Configuration.GetConnectionString("ConnectionBD"));
             });
-
+            services.AddSingleton(Configuration);
+            services.AddFluentValidation(options =>
+            {
+                options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies().Where(p => !p.IsDynamic));
+            });
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             services.AddScoped<IUserService, UserService>();
