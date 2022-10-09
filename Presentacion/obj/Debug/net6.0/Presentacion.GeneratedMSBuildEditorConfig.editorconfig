@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Presentacion
 build_property.RootNamespace = Presentacion
-build_property.ProjectDir = E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\Presentacion\
+build_property.ProjectDir = C:\Users\usach\source\repos\CRUD FINAL\Presentacion\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\Presentacion
+build_property.MSBuildProjectDirectory = C:\Users\usach\source\repos\CRUD FINAL\Presentacion
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/Home/Index.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/Home/Privacy.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/Shared/Error.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/Tratamiento/Index.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/Tratamiento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdGFtaWVudG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/User/Index.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/_ViewImports.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/_ViewStart.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Ciclos-Unas/Ciclo 2022-I/Patrones de Arquitectura/CrudCapas/CrudCapas/Presentacion/Views/Shared/_Layout.cshtml]
+[C:/Users/usach/source/repos/CRUD FINAL/Presentacion/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-huwsf5vtt9

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pHpFfl684TvKf21XXUv+2UzEvelWeJBQ98GQv/vUnqFC3hG1W/b+2+3Cly2xO6Bz5ZJwkkCWKaPxvbqnqfU/gA==",
+  "dgSpecHash": "mD1S2HWTYfCUH1Pgzv0+nHO8/wWez+kBBm8mZPXtDxXO+xm6czwHfTbfNRpxRAgUXEnXxudfN0ulfENZE3T72A==",
   "success": true,
-  "projectFilePath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj",
+  "projectFilePath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.Soporte\\CRUD.Soporte.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jonel\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
-    "C:\\Users\\jonel\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
-    "C:\\Users\\jonel\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
-    "C:\\Users\\jonel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\usach\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\usach\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\usach\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\usach\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

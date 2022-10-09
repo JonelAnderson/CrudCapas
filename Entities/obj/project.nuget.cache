@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PZr37v2EE96lOpgbTTWPUCyRb/hYA80DIYWMqy9JtGejT5jTmZuk0IXFZjoiyA9m43Osl3opTnGZQhUIlbZa7Q==",
+  "dgSpecHash": "C51+tTuKPQnCkSCybcxsEmbe+G4zRYurL0YU/MPpr299MYWrmVO927/Vi/hucxWOUIFxF6KiHWfOMn1jRiPBDA==",
   "success": true,
-  "projectFilePath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj": {}
+    "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj": {}
   },
   "projects": {
-    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj": {
+    "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj",
+        "projectUniqueName": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj",
         "projectName": "CRUD.DependencyInjector",
-        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj",
-        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\obj\\",
+        "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj",
+        "packagesPath": "C:\\Users\\usach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.DependenyInjector\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj"
+              "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Domain\\Domain.csproj"
               }
             }
           }
@@ -55,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj": {
+    "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.Soporte\\CRUD.Soporte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj",
+        "projectUniqueName": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.Soporte\\CRUD.Soporte.csproj",
         "projectName": "CRUD.Soporte",
-        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj",
-        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\obj\\",
+        "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.Soporte\\CRUD.Soporte.csproj",
+        "packagesPath": "C:\\Users\\usach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.Soporte\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
-                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
+              "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj"
               }
             }
           }
@@ -119,7 +120,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -128,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\usach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,8 +158,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
-                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
+              "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj"
               }
             }
           }
@@ -197,7 +199,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -206,21 +209,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj": {
+    "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\usach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -234,14 +237,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj": {
-                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj"
+              "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.Soporte\\CRUD.Soporte.csproj": {
+                "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\CRUD.Soporte\\CRUD.Soporte.csproj"
               },
-              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\DataAccess\\DataAccess.csproj"
               },
-              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
-                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
+              "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj"
               }
             }
           }
@@ -267,7 +270,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -276,21 +280,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
+    "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\usach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usach\\source\\repos\\CRUD FINAL\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -321,7 +325,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -330,7 +335,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

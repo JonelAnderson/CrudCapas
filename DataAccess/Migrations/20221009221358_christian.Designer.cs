@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221009032515_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20221009221358_christian")]
+    partial class christian
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -63,23 +63,16 @@ namespace DataAccess.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdUser"), 1L, 1);
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
-                        .IsRequired()
-                        .HasMaxLength(11)
-                        .HasColumnType("nvarchar(11)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("IdUser");
 

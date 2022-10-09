@@ -13,3 +13,18 @@ E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\CRUD.So
 E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\CRUD.Soporte\obj\Debug\net6.0\refint\CRUD.Soporte.dll
 E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.pdb
 E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\CRUD.Soporte\obj\Debug\net6.0\ref\CRUD.Soporte.dll
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\bin\Debug\net6.0\CRUD.Soporte.deps.json
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\bin\Debug\net6.0\CRUD.Soporte.dll
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\bin\Debug\net6.0\CRUD.Soporte.pdb
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\bin\Debug\net6.0\Entities.dll
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\bin\Debug\net6.0\Entities.pdb
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.csproj.AssemblyReference.cache
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.AssemblyInfoInputs.cache
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.AssemblyInfo.cs
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.csproj.CoreCompileInputs.cache
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.csproj.CopyComplete
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.dll
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\refint\CRUD.Soporte.dll
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\CRUD.Soporte.pdb
+C:\Users\usach\source\repos\CRUD FINAL\CRUD.Soporte\obj\Debug\net6.0\ref\CRUD.Soporte.dll
