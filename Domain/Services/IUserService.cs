@@ -13,7 +13,7 @@ namespace Domain.Services
         Task<IQueryable<User>> GetAll();
         Task<User> GetById(object id);
         Task<BaseResponse<bool>> Insert(User user);
-        Task<bool> Update(User user);
+        Task<BaseResponse<bool>> Update(User user);
         Task<bool> Delete(object id);
 
         Task<User> GetByName(string request);

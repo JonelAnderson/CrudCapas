@@ -1,7 +1,6 @@
-﻿@model List<Entities.Entities.ParameterSystem>
-@using Presentacion.Models.Language
+﻿@model Presentacion.Models.ViewModel.UserVM
 @{
-    LanguageModelButtons LanguageButtons = new LanguageModelButtons().GetLanguageForView();
+    
     ViewData["Title"] = "Usuario";
     ViewData["Titulo"] = "USER";
 }
@@ -10,11 +9,11 @@
         <div class="col-sm-12 col-md-12 header-card-title">
             <div class="table-title">
                 <div class="float-start">
-                    <h3><strong>@LanguageButtons.List_user</strong></h3>
+                    <h3><strong>List Users</strong></h3>
 
                 </div>
                 <div class="float-end">
-                    <button class="btn btn-primary button-title" id="btnNuevo"><em class='fa fa-plus'></em> @LanguageButtons.New_user</button>
+                    <button class="btn btn-primary button-title" id="btnNuevo"><em class='fa fa-plus'></em>NEW USER</button>
                 </div>
             </div>
         </div>
@@ -26,11 +25,11 @@
                     <thead>
                         <tr class="text-center">
                             <th>ID</th>
-                            <th>@LanguageButtons.Names</th>
-                            <th>@LanguageButtons.LastName</th>
-                            <th>@LanguageButtons.Email</th>
-                            <th>@LanguageButtons.Phone</th>
-                            <th>@LanguageButtons.Action</th>
+                            <th>Names</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -47,33 +46,37 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">@LanguageButtons.User_detail</h5>
+                <h5 class="modal-title">User details</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form>
+            <form autocomplete="false">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="modal-body">
-                
                     <input type="hidden" id="txtId" value="0" />
                     <div class="mb-2">
-                        <label>@LanguageButtons.Names</label>
-                        <input type="text" class="form-control" id="txtName" required />
+                        <label asp-for="Name" class="control-label">Names</label>
+                        <input  asp-for="Name" type="text" class="form-control" id="txtName" />
+                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                     <div class="mb-2">
-                        <label>@LanguageButtons.LastName</label>
-                        <input type="text" class="form-control" id="txtlastName" required />
+                        <label asp-for="LastName" class="control-label">Last Name</label>
+                        <input asp-for="LastName" type="text" class="form-control" id="txtlastName" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
                     </div>
                     <div class="mb-2">
-                        <label>@LanguageButtons.Email</label>
-                        <input type="text" class="form-control" id="txtEmail" required />
+                        <label asp-for="Email" class="control-label">Email</label>
+                        <input asp-for="Email" type="text" class="form-control" id="txtEmail" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
                     <div class="mb-2">
-                        <label>@LanguageButtons.Phone</label>
-                        <input type="text" class="form-control" id="txtPhone" required />
+                        <label asp-for="Phone" class="control-label">Phone</label>
+                        <input asp-for="Phone" type="number" class="form-control" id="txtPhone" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><em class='bx bx-x'></em>&nbsp @LanguageButtons.Close</button>
-                    <button type="submit" class="btn btn-primary" id="btnGuardar"><em class='bx bx-save'></em>&nbsp @LanguageButtons.Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><em class='bx bx-x'></em>&nbsp Close</button>
+                    <button type="submit" class="btn btn-primary" id="btnGuardar"><em class='bx bx-save'></em>&nbsp Save</button>
                 </div>
             </form>
         </div>
@@ -81,6 +84,9 @@
 </div>
 <!--Fin Modal-->
 @section Scripts{
+    @{
+        <Partial Name="_ValidationScriptsPartial" />
+    }
 
     <script>
 

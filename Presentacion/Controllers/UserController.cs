@@ -46,19 +46,18 @@ namespace Presentacion.Controllers
         [HttpPost]
         public async Task<IActionResult> Insert([FromBody] UserVM request)
         {
+            
+                User NewUser = new User()
+                {
+                    Name = request.Name,
+                    LastName = request.LastName,
+                    Email = request.Email,
+                    Phone = request.Phone
+                };
 
-            User NewUser = new User()
-            {
-                Name = request.Name,
-                LastName = request.LastName,
-                Email = request.Email,
-                Phone = request.Phone
-            };
+                var respuesta = await _userService.Insert(NewUser);
 
-            var respuesta = await _userService.Insert(NewUser);
-
-            //var response = await _categoryApplication.RegisterCategory(requestDto);
-            return Ok(respuesta);
+                return Ok(respuesta);            
 
             //return StatusCode(StatusCodes.Status200OK, new { valor = respuesta });
 
@@ -77,9 +76,10 @@ namespace Presentacion.Controllers
                 Phone = request.Phone
             };
 
-            bool respuesta = await _userService.Update(NewUser);
+            var respuesta = await _userService.Update(NewUser);
+            return Ok(respuesta);
 
-            return StatusCode(StatusCodes.Status200OK, new { valor = respuesta });
+            //return StatusCode(StatusCodes.Status200OK, new { valor = respuesta });
 
         }
 

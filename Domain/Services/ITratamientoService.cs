@@ -1,9 +1,5 @@
-﻿using Entities.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Common;
+using Entities.Entities;
 
 namespace Domain.Services
 {
@@ -11,8 +7,8 @@ namespace Domain.Services
     {
         Task<IQueryable<Tratamiento>> GetAll();
         Task<Tratamiento> GetById(object id);
-        Task<bool> Insert(Tratamiento tratamiento);
-        Task<bool> Update(Tratamiento tratamiento);
+        Task<BaseResponse<bool>> Insert(Tratamiento tratamiento);
+        Task<BaseResponse<bool>> Update(Tratamiento tratamiento);
         Task<bool> Delete(object id);
     }
 }

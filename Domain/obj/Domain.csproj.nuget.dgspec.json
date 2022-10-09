@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj": {}
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj": {
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\obj\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj"
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj": {
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\Domain.csproj",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Domain\\obj\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,11 +106,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj"
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj"
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj": {
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj",
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\Entities.csproj",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Entities\\obj\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",

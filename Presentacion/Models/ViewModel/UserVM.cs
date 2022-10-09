@@ -17,8 +17,10 @@ namespace Presentacion.Models.ViewModel
         [Display(Name = "Apellido")]
         public string? LastName { get; set; }
 
-        [EmailAddress]
+        //[EmailAddress(ErrorMessage = "El campo Correo no es una dirección de correo electrónico válida.")]
+        [RegularExpression(@"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$", ErrorMessage = "El Correo electrónico es incorreto")]
         [Required(ErrorMessage = "El Correo es obligatorio")]
+        [StringLength(100, ErrorMessage = "El {0} debe ser maximo {1} caracteres")]
         [Display(Name = "Correo")]
         public string? Email { get; set; }
 
@@ -27,9 +29,12 @@ namespace Presentacion.Models.ViewModel
         [Display(Name = "Teléfono")]
         public string? Phone { get; set; }
 
-       
+        public UserVM()
+        {
+            Tratamientos = new HashSet<TratamientoVM>();
+        }
 
-
+        //[ForeignKey("Tratamientos")]
         public virtual ICollection<TratamientoVM>? Tratamientos { get; set; }
     }
 }

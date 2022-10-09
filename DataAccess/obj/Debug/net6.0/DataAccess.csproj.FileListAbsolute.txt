@@ -32,3 +32,20 @@ D:\Proyecto Csharp\ArquitecturaCapas\DataAccess\obj\Debug\net6.0\refint\DataAcce
 D:\Proyecto Csharp\ArquitecturaCapas\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\Proyecto Csharp\ArquitecturaCapas\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
 D:\Proyecto Csharp\ArquitecturaCapas\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\bin\Debug\net6.0\DataAccess.dll
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\bin\Debug\net6.0\Entities.dll
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\bin\Debug\net6.0\Entities.pdb
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.dll
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+E:\Ciclos-Unas\Ciclo 2022-I\Patrones de Arquitectura\CrudCapas\CrudCapas\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

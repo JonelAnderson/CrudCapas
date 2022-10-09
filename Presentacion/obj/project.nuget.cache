@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n3Jq6zqiEyk7jmPBUPP37stj6db/bsvQG1Xo3cOorniItHq2mjeKshTwzWg5wnD9hqQikvkBi9/Tlk/tVgav6A==",
+  "dgSpecHash": "+taAQwsQQI3RPIDWshl7VRiAx5rMg6j4SHG/vTq48Scsaf0Bf9kNdPxVZ1729CJr8su24/pc7ipn9+IfL4c8Sw==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\Presentacion\\Presentacion.csproj",
+  "projectFilePath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Presentacion\\Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonel\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\jonel\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",

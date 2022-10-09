@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0DBRwRwre0K/ZNDaGQ+AS9XpwmuvTCF9gKqg1vinEqAZdFWMOA+NlJWOryQBkCWQTDzeZ4Tji2/HrIARE2c28w==",
+  "dgSpecHash": "NZqnU+eWm9KT3tV5eIuszMH7qXxdQzkZpLwP1PQG2AJEgQLc6fJlxoMuKY0faMcpHwRX6grdBq2B/3mesYwD1A==",
   "success": true,
-  "projectFilePath": "D:\\Proyecto Csharp\\ArquitecturaCapas\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jonel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
