@@ -15,9 +15,8 @@ namespace DataAccess.DBContetx
         }
 
 
-
-        public virtual DbSet<User> Users { get; set; } = null!;
-        public virtual DbSet<Tratamiento> Tratamientos { get; set; } = null!;
+        public virtual DbSet<User>? Users { get; set; }
+        public virtual DbSet<Tratamiento>? Tratamientos { get; set; }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }

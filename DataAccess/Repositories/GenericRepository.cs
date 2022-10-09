@@ -72,7 +72,7 @@ namespace DataAccess.Repositories
             try
             {
                 TItem? request = await _dbcontext.Set<TItem>().FindAsync(id);
-                 _ = _dbcontext.Remove(request);
+                 _ = _dbcontext.Remove(request!);
                 await _dbcontext.SaveChangesAsync();
                 return true;
 

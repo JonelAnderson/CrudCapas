@@ -1,13 +1,12 @@
 ﻿using DataAccess.DBContetx;
 using DataAccess.Repositories;
 using Domain.Services;
-using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Domain.Depency
+namespace CRUD.DepencyInjector
 {
     public static class DependencyInject
     {
@@ -19,7 +18,7 @@ namespace Domain.Depency
             {
                 options.UseSqlServer(Configuration.GetConnectionString("ConnectionBD"));
             });
-            
+
             services.AddSingleton(Configuration);
 
             services.AddFluentValidation(options =>

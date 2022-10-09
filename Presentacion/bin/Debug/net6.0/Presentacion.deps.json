@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Presentacion/1.0.0": {
         "dependencies": {
+          "CRUD.DependencyInjector": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9"
@@ -519,6 +520,24 @@
           }
         }
       },
+      "CRUD.DependencyInjector/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.1"
+        },
+        "runtime": {
+          "CRUD.DependencyInjector.dll": {}
+        }
+      },
+      "CRUD.Soporte/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0",
+          "FluentValidation.AspNetCore": "11.2.2"
+        },
+        "runtime": {
+          "CRUD.Soporte.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
@@ -532,6 +551,7 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
+          "CRUD.Soporte": "1.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0",
           "FluentValidation.AspNetCore": "11.2.2"
@@ -930,6 +950,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "CRUD.DependencyInjector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUD.Soporte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DataAccess/1.0.0": {
       "type": "project",

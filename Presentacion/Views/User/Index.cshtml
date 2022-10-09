@@ -1,19 +1,18 @@
 ﻿@model Presentacion.Models.ViewModel.UserVM
-@{
-    
-    ViewData["Title"] = "Usuario";
-    ViewData["Titulo"] = "USER";
+@{    
+    ViewData["Title"] = "Encargado";
+    ViewData["Titulo"] = "ENCARGADO";
 }
 <div class="border-decoration ">
     <div class="row">
         <div class="col-sm-12 col-md-12 header-card-title">
             <div class="table-title">
                 <div class="float-start">
-                    <h3><strong>List Users</strong></h3>
+                    <h3><strong>Lista de Encargados</strong></h3>
 
                 </div>
                 <div class="float-end">
-                    <button class="btn btn-primary button-title" id="btnNuevo"><em class='fa fa-plus'></em>NEW USER</button>
+                    <button class="btn btn-primary button-title" id="btnNuevo"><em class='fa fa-plus'></em>NUEVO ENCARGADO</button>
                 </div>
             </div>
         </div>
@@ -46,7 +45,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">User details</h5>
+                <h5 class="modal-title">Detalle Encargado</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form autocomplete="false">
@@ -56,7 +55,7 @@
                     <div class="mb-2">
                         <label asp-for="Name" class="control-label">Names</label>
                         <input  asp-for="Name" type="text" class="form-control" id="txtName" />
-                         <span asp-validation-for="Name" class="text-danger"></span>
+                        <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                     <div class="mb-2">
                         <label asp-for="LastName" class="control-label">Last Name</label>

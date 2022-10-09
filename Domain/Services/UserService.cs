@@ -1,7 +1,8 @@
-﻿using DataAccess.Repositories;
-using Domain.Common;
-using Domain.Const;
+﻿using CRUD.Soporte.Const;
 using Domain.Validator;
+using DataAccess.Repositories;
+using Domain.Common;
+
 using Entities.Entities;
 
 namespace Domain.Services
@@ -87,7 +88,7 @@ namespace Domain.Services
         {
             IQueryable<User> queryUserSQL = await _userRepository.GetAll();
             User? user = queryUserSQL.Where(c => c.Name == nameUser).FirstOrDefault();
-            return user;
+            return user!;
         }
        
     }

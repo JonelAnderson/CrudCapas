@@ -1,5 +1,5 @@
 
-using Domain.Depency;
+using CRUD.DepencyInjector;
 
 var builder = WebApplication.CreateBuilder(args);
 

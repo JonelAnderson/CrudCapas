@@ -1,4 +1,4 @@
-﻿namespace Domain.Const
+﻿namespace CRUD.Soporte.Const
 {
     public class ReplyMessage
     {

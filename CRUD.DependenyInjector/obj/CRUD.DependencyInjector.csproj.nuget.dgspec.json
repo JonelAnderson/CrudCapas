@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj": {}
+  },
+  "projects": {
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj",
+        "projectName": "CRUD.DependencyInjector",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\CRUD.DependencyInjector.csproj",
+        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.DependenyInjector\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj",
+        "projectName": "CRUD.Soporte",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj",
+        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj"
+              },
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj"
+              },
+              "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\jonel\\.nuget\\packages\\",
+        "outputPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jonel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

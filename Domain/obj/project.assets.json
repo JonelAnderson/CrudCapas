@@ -762,6 +762,20 @@
           }
         }
       },
+      "CRUD.Soporte/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "FluentValidation.AspNetCore": "11.2.2"
+        },
+        "compile": {
+          "bin/placeholder/CRUD.Soporte.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUD.Soporte.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2219,6 +2233,11 @@
         "version.txt"
       ]
     },
+    "CRUD.Soporte/1.0.0": {
+      "type": "project",
+      "path": "../CRUD.Soporte/CRUD.Soporte.csproj",
+      "msbuildProject": "../CRUD.Soporte/CRUD.Soporte.csproj"
+    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -2232,6 +2251,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CRUD.Soporte >= 1.0.0",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.2"
@@ -2264,6 +2284,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj": {
+              "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\CRUD.Soporte\\CRUD.Soporte.csproj"
+            },
             "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj": {
               "projectPath": "E:\\Ciclos-Unas\\Ciclo 2022-I\\Patrones de Arquitectura\\CrudCapas\\CrudCapas\\DataAccess\\DataAccess.csproj"
             },
